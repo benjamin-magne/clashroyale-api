@@ -1,1 +1,1 @@
-#ClashRoyale API
+# ClashRoyale API
