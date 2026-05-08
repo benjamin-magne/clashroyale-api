@@ -79,9 +79,8 @@ namespace ClashRoyaleApi.Controllers
         {
             _context.Troops.Add(troop);
             await _context.SaveChangesAsync();
-                
-            return CreatedAtAction(nameof(GetTroop), new { id = troop.Id }, troop);
 
+            return CreatedAtAction("GetTroop", new { id = troop.Id }, troop);
         }
 
         // DELETE: api/Troop/5

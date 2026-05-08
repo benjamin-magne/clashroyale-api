@@ -1,0 +1,30 @@
+namespace ClashRoyaleApi.DurationType;
+
+public enum EnumDurationType
+{
+    SpawnSpeed,
+    Lifetime,
+    HotSpawnSpeed,
+    StunDuration,
+    FreezeDuration,
+    BannerLifetime,
+    Cooldown,
+    SlowdownDuration,
+    TauntDuration,
+    PulseDuration,
+    DeployTime,
+    InvincibilityDuration,
+    BoostDuration,
+    Duration,
+    PoisonDuration,
+    CookingTime,
+    TornadoDuration,
+    ProductionSpeed,
+    NetDuration,
+    NetCooldown,
+    CastTime,
+    DecoyDuration,
+    ChargedDuration,
+    SnareDuration,
+    InvisibilityDuration,
+}

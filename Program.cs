@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Data.Sqlite;
 using ClashRoyaleApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddDbContext<TroopContext>(opt =>
-    opt.UseInMemoryDatabase("TroopList"));
+    opt.UseSqlite("Data Source=DB/TroopList.db"));
 
 var app = builder.Build();
 
