@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using ClashRoyaleApi.Enums;
 
 namespace ClashRoyaleApi.Models
 {
@@ -13,9 +12,10 @@ namespace ClashRoyaleApi.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Troop>().Ignore(troop => troop.Rarity);
-            modelBuilder.Entity<Troop>().Ignore(troop => troop.Range);
-            modelBuilder.Entity<Troop>().Ignore(troop => troop.Mechanics);
+            modelBuilder.Entity<Troop>(entity =>
+            {
+                
+            });
         }
     }
 }

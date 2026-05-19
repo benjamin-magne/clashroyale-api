@@ -321,3 +321,4 @@
 /home/benji/Bureau/VS_PROJECTS/ClashRoyaleApi/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
 /home/benji/Bureau/VS_PROJECTS/ClashRoyaleApi/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
 /home/benji/Bureau/VS_PROJECTS/ClashRoyaleApi/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+/home/benji/Bureau/VS_PROJECTS/ClashRoyaleApi/bin/Debug/net10.0/appsettings.Production.json
